@@ -1,0 +1,82 @@
+{
+  "bot": {
+    "name": "Kasouta",
+    "prefix": "/",
+    "status": "🎮 Minecraft play.paladium-bedrock.fr",
+    "statusType": "WATCHING"
+  },
+  "colors": {
+    "primary": "#FF6B6B",
+    "secondary": "#4A90E2",
+    "success": "#2ECC71",
+    "warning": "#F39C12",
+    "error": "#E74C3C",
+    "info": "#3498DB"
+  },
+  "emojis": {
+    "success": "✅",
+    "error": "❌",
+    "warning": "⚠️",
+    "info": "ℹ️",
+    "ticket": "🎫",
+    "lock": "🔒",
+    "unlock": "🔓",
+    "ban": "⛔",
+    "mute": "🔇",
+    "kick": "👢",
+    "announce": "📢"
+  },
+  "tickets": {
+    "types": {
+      "demande-role": {
+        "emoji": "🎭",
+        "label": "Demande de rôle",
+        "color": "PURPLE",
+        "description": "Vous souhaitez obtenir un rôle spécifique sur le serveur"
+      },
+      "recrutement": {
+        "emoji": "💼",
+        "label": "Recrutement",
+        "color": "BLUE",
+        "description": "Vous souhaitez rejoindre l'équipe (Staff, Modération, Support)"
+      },
+      "fondation": {
+        "emoji": "👑",
+        "label": "Fondation",
+        "color": "GOLD",
+        "description": "Questions importantes concernant la direction du serveur"
+      },
+      "autre": {
+        "emoji": "❔",
+        "label": "Autre",
+        "color": "GREY",
+        "description": "Toute autre demande ou question"
+      }
+    },
+    "autoDeleteAfterDays": 7
+  },
+  "moderation": {
+    "maxWarnsBeforeKick": 3,
+    "muteDurations": {
+      "1h": 3600000,
+      "2h": 7200000,
+      "6h": 21600000,
+      "12h": 43200000,
+      "24h": 86400000,
+      "7j": 604800000,
+      "30j": 2592000000
+    }
+  },
+  "permissions": {
+    "hierarchy": [
+      "DEVELOPER",
+      "ADMINISTRATOR",
+      "MODERATOR",
+      "SUPPORT",
+      "PATRON",
+      "PARTNER",
+      "VOTER",
+      "MEMBER"
+    ]
+  }
+}

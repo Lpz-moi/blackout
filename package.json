@@ -1,0 +1,33 @@
+{
+  "name": "kasouta-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord professionnel pour communauté Minecraft avec système de tickets, modération avancée et gestion communautaire",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "minecraft",
+    "moderation",
+    "tickets"
+  ],
+  "author": "Kasouta Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "better-sqlite3": "^9.4.3",
+    "ms": "^2.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
